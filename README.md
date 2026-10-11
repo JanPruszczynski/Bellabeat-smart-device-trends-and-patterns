@@ -4,17 +4,17 @@ Bellabeat Case Study: Smart Device Usage, Sleep and Activity Patterns
 
 My capstone project for the Google Data Analytics Certificate. Bellabeat is a wellness technology company, and I looked at public Fitbit data to see how people move, rest and track their sleep, and what that could mean for Bellabeat’s Leaf users.
 
-Data: Fitbit Fitness Tracker dataset (Kaggle), covering 35 users from 12 March to 12 May 2016.
+Data: Fitbit Fitness Tracker dataset (Kaggle), covering 35 users from 12.03.2016 - 05.12.2016.
 Tools: BigQuery (SQL) for cleaning and aggregation, Tableau Public for visualisation, Canva for the presentation.
 
-What I found
+**What I found**
 
 Saturday is the most active day (7,752 average steps) and Sunday the least (6,607). No day reaches 10,000 steps.
 Most activity is light, about 190 minutes a day, against about 20 very active minutes. Sedentary time runs 16 to 17 hours.
 Activity peaks around noon and again between 5 and 7 PM, with a dip around 3 PM and a sharp drop after 8 PM.
 All 35 users tracked activity, but only about 16 to 21 logged sleep on any given day.
 
-Recommendations
+**Recommendations**
 
 Send exercise nudges between 8 AM and 7 PM, timed around the 3 PM dip and the evening peak.
 Personalise messages by activity level.
@@ -25,8 +25,10 @@ I also propose success metrics (average daily steps, share of users logging slee
 
 Limitations: small sample, no demographic data, only two months, and data from 2016.
 
-Files: the full presentation (PDF) is in this repo.
+**Files:** the full presentation (PDF) is in this repo.
 
-Link to my Tableau Public profile: https://public.tableau.com/app/profile/jan.pruszczy.ski/vizzes
+**Link to my Tableau Public profile and the dashboard:** https://public.tableau.com/app/profile/jan.pruszczy.ski/vizzes
+https://public.tableau.com/views/Bellabeatsmartdeviveuserstrendsandpatterns/VaryandFairlyActiveMinutes?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-Link to the original dataset: https://www.kaggle.com/datasets/arashnic/fitbit/code
+**Link to the original data source:** 
+Fitbit Fitness Tracker dataset (Kaggle, CC0): https://www.kaggle.com/datasets/arashnic/fitbit
