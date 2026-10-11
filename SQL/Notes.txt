@@ -1,0 +1,11 @@
+This folder contains SQL (BigQuery) code for the tables after the cleaning has been done, which were used for analysis of the data.
+
+The tables are:
+1. Bellabeat dailysteps comparison
+2. Bellabeat hours with the highest average intensity
+3. Bellabeat Hours with the highest average steps
+4. Bellabeat comparison weekend and weekday
+5. Bellabeat average daily total time asleep vs spent in bed
+6. Bellabeat average weekday weekend time spent in bedasleep
+
+
