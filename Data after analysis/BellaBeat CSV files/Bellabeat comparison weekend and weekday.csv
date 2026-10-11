@@ -1,0 +1,3 @@
+day_type,user_day_records,unique_users,avg_total_steps,avg_very_active_minutes,avg_sedentary_minutes
+Weekday,950,35,7287.06,18.33,1011.82
+Weekend,392,35,7188.27,19.55,984.1

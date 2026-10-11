@@ -1,0 +1,8 @@
+day_of_week,unique_users,user_record_count,avg_total_steps,avg_very_active_min,avg_fairly_active_min,avg_lightly_active_min,avg_sedentary_min
+Sunday,35,193,6606.73,18.25,12.54,170.09,999.73
+Monday,35,179,7293.97,19.29,12.42,182.49,1040.12
+Tuesday,35,195,7570.32,19.66,13.57,192.52,1007.94
+Wednesday,35,191,7369.66,18.05,13.4,187.64,999.82
+Thursday,35,189,7101.91,17.06,12.47,179.46,989.76
+Friday,35,196,7096.97,17.62,15.76,194.04,1022.82
+Saturday,35,199,7752.27,20.81,14.22,200.69,968.93
