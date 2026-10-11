@@ -26,3 +26,7 @@ I also propose success metrics (average daily steps, share of users logging slee
 Limitations: small sample, no demographic data, only two months, and data from 2016.
 
 Files: the full presentation (PDF) is in this repo.
+
+Link to my Tableau Public profile: https://public.tableau.com/app/profile/jan.pruszczy.ski/vizzes
+
+Link to the original dataset: https://www.kaggle.com/datasets/arashnic/fitbit/code
