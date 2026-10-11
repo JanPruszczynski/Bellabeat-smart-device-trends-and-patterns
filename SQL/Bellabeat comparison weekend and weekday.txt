@@ -1,0 +1,14 @@
+SELECT -- Sunday = 1 Saturday = 7 --
+CASE
+  WHEN EXTRACT(DAYOFWEEK FROM ActivityDate) IN (1,7)
+  THEN 'Weekend'
+  ELSE "Weekday"
+  END AS day_type,
+  COUNT(*) AS user_day_records,
+  COUNT(DISTINCT Id) AS unique_users,
+  ROUND(AVG(TotalSteps),2) AS avg_total_steps,
+  ROUND(AVG(VeryActiveMinutes),2) AS avg_very_active_minutes,
+  ROUND(AVG(SedentaryMinutes),2) AS avg_sedentary_minutes
+  FROM able-goods-510915-t9.Bellabeat.daily_activities_merged
+  GROUP BY day_type
+  ORDER BY day_type

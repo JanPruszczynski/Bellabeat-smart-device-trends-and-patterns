@@ -1,0 +1,12 @@
+SELECT
+  CASE WHEN EXTRACT(DAYOFWEEK FROM SleepDay) IN (1,7)
+  THEN 'Weekend'
+  ELSE 'Weekday'
+  END AS day_type,
+  COUNT(DISTINCT Id) AS unique_users,
+  COUNT(*) AS user_records,
+  ROUND(AVG(TotalMinutesAsleep), 2) AS avg_total_min_asleep,
+  ROUND(AVG(TotalTimeInBed), 2) AS avg_total_time_in_bed,
+  FROM able-goods-510915-t9.Bellabeat.sleep_day_apr_may_clean
+  GROUP BY day_type
+  ORDER BY day_type

@@ -1,0 +1,12 @@
+SELECT
+  FORMAT_DATE('%A', ActivityDate) AS day_of_week,
+  COUNT(DISTINCT Id) AS unique_users,
+  COUNT(*) AS user_record_count,
+  ROUND(AVG(TotalSteps),2) AS avg_total_steps,
+  ROUND(AVG(VeryActiveMinutes),2 ) AS avg_very_active_min,
+  ROUND(AVG(FairlyActiveMinutes),2 ) AS avg_fairly_active_min,
+  ROUND(AVG(LightlyActiveMinutes),2 ) AS avg_lightly_active_min,
+  ROUND(AVG(SedentaryMinutes),2 ) AS avg_sedentary_min
+  FROM able-goods-510915-t9.Bellabeat.daily_activities_merged
+  GROUP BY day_of_week, EXTRACT(DAYOFWEEK FROM ActivityDate)
+  ORDER BY EXTRACT(DAYOFWEEK FROM ActivityDate)

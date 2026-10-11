@@ -1,0 +1,9 @@
+SELECT
+  FORMAT_DATE('%H', ActivityHour) AS hour,
+  COUNT(DISTINCT Id) AS unique_users,
+  COUNT(*) AS user_hour_records,
+  ROUND(AVG(StepTotal),2) AS avg_total_steps
+  FROM able-goods-510915-t9.Bellabeat.hourly_steps_merged
+  GROUP BY hour
+  ORDER BY avg_total_steps DESC
+  
